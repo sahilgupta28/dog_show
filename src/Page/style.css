@@ -1,0 +1,59 @@
+.image-container {
+    text-align: center;
+    /* Centers the image and button */
+}
+
+.image-container img {
+    width: 100%;
+    /* Make image responsive */
+    max-width: 700px;
+    /* Optional: Set a maximum width */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Ensure image takes up its own space */
+    margin: 0 auto;
+    /* Center the image horizontally */
+}
+
+.image-container .btn {
+    margin-top: 10px;
+    /* Add space between image and button */
+    padding: 10px 20px;
+    background-color: #007bff;
+    /* Bootstrap primary color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.image-container .btn:hover {
+    background-color: #0056b3;
+    /* Darken button color on hover */
+}
+
+
+.button-primary {
+    background-color: #007bff;
+    /* Primary color (Bootstrap standard) */
+    color: white;
+    /* Text color */
+    padding: 10px 20px;
+    /* Padding for button size */
+    border: none;
+    /* Remove default border */
+    border-radius: 25px;
+    /* Rounded edges */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    font-size: 16px;
+    /* Adjust font size */
+    transition: background-color 0.3s ease;
+    /* Smooth hover transition */
+}
+
+.button-primary:hover {
+    background-color: #0056b3;
+    /* Darken the button on hover */
+}
